@@ -26,10 +26,10 @@
             <div class="card-scroll">
                 <?php foreach($datas as $key){ ?>
                 <div class="card">
-                    <img src="img/<?= $key["foto"] ?>" alt="" width="100%" height="70%">
+                    <img src="img/iqbal.jpg<?= $key["foto"] ?>" alt="" width="100%" height="70%">
                     <span>kegiatan : <?= $key["judul"] ?></span>
                     <span>keterangan : <?= $key["deskripsi"] ?></span>
-                    <span>tangga: 12-02-2023</span>
+                    <span>tangga: 12-02-2023 cek cek</span>
                 </div>
                 <?php } ?>                
             </div>
